@@ -1,0 +1,36 @@
+
+.container {
+  padding: 2rem;
+  background-color: #f9f9f900;
+}
+
+.heading {
+  color: #f1eeee;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField,
+.textareaField {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}

@@ -1,0 +1,46 @@
+.navContainer {
+  padding: 1rem;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  margin-right: 2rem; 
+}
+
+.navItem a {
+  color: #333; /* Color oscuro para el texto */
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border: 2px solid #333; /* Color oscuro para el borde */
+  border-radius: 8px; 
+  background-color: #ffcc00; /* Color amarillo para el fondo */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navItem a:hover {
+  background-color: #333; /* Color oscuro al pasar el cursor */
+  color: #ffcc00; /* Color amarillo para el texto al pasar el cursor */
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  width: 100%;
+}
+
+.image {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+

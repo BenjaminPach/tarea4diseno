@@ -1,0 +1,29 @@
+.container {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente transparente para el contenedor */
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Sombra más clara para destacar sobre el fondo negro */
+}
+
+/* src/app/services/Service.module.css */
+.heading {
+  color: #28a745; /* Color verde brillante para el encabezado */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* src/app/services/Service.module.css */
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745; /* Mismo color que el encabezado para coherencia */
+  color: white; /* Texto blanco para el botón */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #218838; /* Color verde más oscuro al pasar el cursor */
+}

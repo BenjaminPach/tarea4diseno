@@ -1,0 +1,31 @@
+.container {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente transparente para el contenedor */
+}
+
+.heading {
+  color: #ffcc00; /* Color amarillo brillante para el encabezado */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 500px;  /* Ancho de la imagen */
+  height: 500px; /* Alto de la imagen */
+  object-fit: cover; /* Mantiene la proporción de la imagen sin distorsión */
+  border-radius: 8px; /* Opcional: esquinas redondeadas */
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffcc00; /* Mismo color que el encabezado para coherencia */
+  color: black; /* Texto negro para el botón */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e6b800; /* Color amarillo más oscuro al pasar el cursor */
+}
